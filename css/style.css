@@ -1,0 +1,143 @@
+body {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+}
+
+@font-face {
+    font-family: Righteous;
+    src: url('../fonts/Righteous-Regular.ttf')
+}
+
+.hint {
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+.life {
+    color: white;
+    height: 48px;
+    border-radius: 10px;
+}
+
+
+.life-victory {
+    color: #d2ab58;
+}
+
+.life-lose {
+    color: #bc1c3b;
+}
+
+.container {
+    width: auto;
+    margin: 0 auto;
+}
+
+table {
+    width: 300px;;
+    height: 300px;
+    border: 2.5px solid white;
+    margin: 0 auto;
+    background-color: black;
+    background-blend-mode: color;
+    opacity: 0.75;
+    box-shadow: 5px 5px 15px 5px #000000;
+    border-radius: 15px 15px 15px 15px;
+    padding: 5px;
+}
+
+td {
+    width: 23px;
+    height: 23px;
+    border: 0.5px solid white;
+    font-family: 'Righteous';; 
+    text-align: center;
+    font-weight: 800; 
+    border-radius: 5px 5px 5px 5px;
+}
+
+.clickable:hover {
+background-color: #cfc09e;
+cursor: pointer;
+}
+
+.floor {
+    background-color: white;
+    border: 0px;
+}
+
+
+.difficulty {
+    color: #ffffff; 
+    font-family: 'Righteous';; 
+    font-size: 22px; 
+    font-weight: 800; 
+    text-align: center; 
+    text-transform: uppercase;
+}
+
+label {
+    padding-right: 10px;
+    color: #ffffff; 
+    font-family: 'Righteous'; 
+    font-size: 14px; 
+    font-weight: 800;  
+    text-align: center; 
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.mine-hit {
+    background-color: indianred;
+}
+
+.mine-hit-has-life {
+background-color: khaki;
+}
+
+
+.timer,
+.mines {
+    color:white;
+    font-weight: 800; 
+    font-family: 'Righteous';; 
+
+}
+
+h1 {
+    color: #ffffff; 
+    font-family: 'Righteous';
+    font-size: 50px; 
+    font-weight: 800; 
+    text-align: center; 
+    text-transform: uppercase;
+}
+
+.num1 {
+    color: cadetblue;
+}
+
+.num2 {
+    color: mediumseagreen;
+}
+
+.num3 {
+    color: tomato;
+}
+
+.num4 {
+    color: indigo;
+}
+
+.num5 {
+    color: red;
+}
+
+.num6 {
+    color: brown;
+}

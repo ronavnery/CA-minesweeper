@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mine Sprinter - Ron Avnery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+ 
+<body onload="init(8)">
+    <div class="container">
+        <h1>Mine Sprinter<br></h1>
+        <h2 class="difficulty">Choose Difficulty:<br>
+                <label><input onclick="init(4)" type="radio" class="form-radio" name="difficulty" value="4">Embarrassly Easy</label>
+                <label><input onclick="init(8)" type="radio" class="form-radio" name="difficulty" value="8" checked="checked">Surprisingly Hard </label>
+                <label><input onclick="init(12)" type="radio" class="form-radio" name="difficulty" value="12">Extremely time consuming</label>
+        </h2>
+    </div>
+    <table class="game">
+        <tbody>
+        </tbody>
+    </table>
+    </div>
+    <script src="js/utils.js"></script>
+    <script src="js/mines.js"></script>
+    <script src="js/action.js"></script>
+    <script src="js/game.js"></script>
+</body>
+
+</html>
